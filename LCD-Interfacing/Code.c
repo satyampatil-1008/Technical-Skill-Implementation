@@ -14,9 +14,9 @@ void main()
 	while(1)
 	{
 		LCD_CMD(0x80);
-		LCD_str("Microcontroller");
+		LCD_str("LCD");
 		LCD_CMD(0xC0);
-		LCD_str("Lab");
+		LCD_str("INTERFACING");
 		LCD_CMD(0x01);
 	}
 }
